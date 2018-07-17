@@ -83,3 +83,17 @@
 						
 						}
 						<h4 id="alapuzha">ALAPUZHA</h4>
+						
+						background: linear-gradient(#f0d562,#61721c);
+						.subsection {
+						float:left;
+						height:600px;
+						}
+						.content2 {
+						float:left;
+						height:250px;
+					  }
+					  .content3 {
+						float:left;
+						height:250px;
+					  }
