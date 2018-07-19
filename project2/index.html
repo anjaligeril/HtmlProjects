@@ -16,7 +16,7 @@
 			#wrapper {
 					background: linear-gradient(#f0d562,#61721c);
 			        opacity:0.9; 
-			         height:1750px;
+			         height:1680px;
 			         width:1200px;
 			         margin:0 auto;
 					 border-radius: 50px;
@@ -251,7 +251,6 @@
 						float:left;
 						width:33.33%;
 						height:200px;
-						background-color:blue;
 						border: 5px solid #3a5705;
 						box-sizing: border-box;
 						border-radius: 25px;
@@ -264,7 +263,6 @@
 						float:left;
 						width:33.33%;
 						height:200px;
-						background-color:yellow;
 						border: 5px solid #3a5705;
 						box-sizing: border-box;
 						border-radius: 25px;
@@ -275,7 +273,6 @@
 						float:right;
 						width:33.33%;
 						height:200px;
-						background-color:red;
 						border: 5px solid #3a5705;
 						box-sizing: border-box;
 						border-radius: 25px;
@@ -288,7 +285,6 @@
 						float:left;
 						width:33.33%;
 						height:200px;
-						background-color:blue;
 						border: 5px solid #3a5705;
 						box-sizing: border-box;
 						border-radius: 25px;
@@ -299,7 +295,6 @@
 						float:left;
 						width:33.33%;
 						height:200px;
-						background-color:yellow;
 						border: 5px solid #3a5705;
 						box-sizing: border-box;
 						border-radius: 25px;
@@ -310,7 +305,6 @@
 						float:right;
 						width:33.33%;
 						height:200px;
-						background-color:red;
 						border: 5px solid #3a5705;
 						box-sizing: border-box;
 						border-radius: 25px;
@@ -333,7 +327,21 @@
 						 box-sizing: border-box;
 						 border-radius: 25px;
 						 background-color:#9c9a3e;
-						}	
+						}
+            #testi	{
+					margin:10px;
+					}
+			#family {
+					border: 3px solid #3a5705;
+					 box-sizing: border-box;
+					 border-radius: 20px;
+					 margin-left:50px;
+                    }	
+			#testiname {
+						font-size:20px;
+						text-align:center;
+						 font-family:"Georgia", serif;
+			           }
 			#getquick {
 					  border: 1px solid #3a5705;
 					  box-sizing: border-box;
@@ -341,6 +349,7 @@
 					  padding-left:50px;
 					  background-color:#e5ad00;
 					   border-radius: 25px;
+					    font-family:"Georgia", serif;
 			          }
 			#submit1 {
 			         margin-left:100px;
@@ -356,13 +365,24 @@
 					border-radius: 10px;
 			       }
 			#footer {
-					height:300px;
+					height:100px;
 					width:100%;
 					background-color:#3a5705;
 					border: 5px solid #3a5705;
 					box-sizing: border-box;
 					border-radius: 10px;
+					text-align:center;
+					color:white;
 					}
+			.foot1 {
+						text-decoration:none;
+						color:white;
+						
+						}
+			#footer ul li {
+			               display:inline;
+						   
+						   }
 			</style>
 	</head>
 	<body>
@@ -388,8 +408,8 @@
 					<li> <a href="#" target="_blank" class="nav">Home</a></li>
 					<li><a href="explorepage.html" target="_blank" class="nav"> Explore &amp; Experience</a></li>
 					<li><a href="destinationspage.html" target="_blank" class="nav">Famous Destinations</a></li>
-					<li><a href="#" target="_blank" class="nav">Packages</a></li>
-					<li><a href="#" target="_blank" class="nav">Plan your Trip</a></li>
+					<li><a href="packages.html" target="_blank" class="nav">Packages</a></li>
+					<li><a href="planyourtrip.html" target="_blank" class="nav">Plan your Trip</a></li>
 					<li><a href="#" target="_blank" class="nav">Gallery</a></li>
 					<li><a href="#" target="_blank" class="nav">Contact Us</a></li>
 				</ul>
@@ -506,6 +526,14 @@
 					
 				</div>
 				<div id="subsection3" class="subsection">
+				<div id="testi">
+				<h4 id="testiname">TESTIMONIAL</h4>
+				<img src="images/family.jpg" height="150" width="150" alt="family" id="family">
+				<p>Thank you all very much for the excellent service during our trip to kerala last month. 
+				Very good service, good hotels, good driver and guide as well, and prices are very affordable.
+				We really had a great time</p>
+				</div>
+					<div id="enquire">
 					<div id="Enquirehead">
 					<h4 id="getquick">Get A Quick Reply</h4>
 					</div>
@@ -516,9 +544,9 @@
 							 Phone No:<input type="tel" name="tele" required pattern="[0-9]{10}"><br><br>
 							 Message:<br><br>&nbsp;&nbsp;<textarea name="message" rows="10" cols="35"> </textarea><br><br>
 							 <input type="submit" id="submit1">
-
-						</form>
+					</form>
 					</div>
+				</div>	
 				</div>
 			</div>
 			<div class="space">
@@ -531,7 +559,14 @@
 			<img src="images/sadhya1.jpg" width="225" height="225" alt="sadhya">
 			</div>
 			<div id="footer">
-		</div>
+				<ul>
+					<li><a href="#" class="foot1">Sitemap  |</a></li>
+					<li><a href="#" class="foot1">Google Sitemap  |</a></li>
+					<li><a href="#" class="foot1">RSS Feeds  |</a></li>
+					<li><a href="#" class="foot1">ROR Sitemap  </a></li>
+				</ul>
+				<span>Copyright &copy; 2018 Destination Kerala Pvt.Ltd.All rights reserved.</span>
+			</div>
 		</div>
 	</body>
 </html>
